@@ -8,3 +8,22 @@
 > to optimize and perform and big-data linear regression. 
 
 > Sample code, graphics, and more can be found on this page.
+
+# Stabalization Results
+
+### Full RANSAC
+![Alt Text](./images/normal.gif)
+
+### Coreset Approach
+![Alt Text](./images/coreset.gif)
+
+### Random Point Approach
+![Alt Text](./images/random.gif)
+
+# Error of Mean-Coreset vs Linear Regression
+![Alt Text](./images/error.png)
+
+# Run-time Comparison
+![Alt Text](./images/time.png)  
+
+Note normal RANSAC approach has dependence on n, and thus would be slower for pictures with ~O(2000) point correspondances. 
